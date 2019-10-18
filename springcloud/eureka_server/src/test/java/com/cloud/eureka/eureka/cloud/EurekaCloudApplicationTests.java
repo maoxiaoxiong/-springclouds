@@ -1,4 +1,4 @@
-package com.cloud.eureka.eureka_cloud;
+package com.cloud.eureka.eureka.cloud;
 
 import org.springframework.boot.test.context.SpringBootTest;
 
