@@ -13,3 +13,5 @@ management:
     web:
       server:
         auto-time-requests: false
+  main:
+   allow-bean-definition-overriding: true
