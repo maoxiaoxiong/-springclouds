@@ -10,3 +10,5 @@ eureka:
     register-with-eureka: false
     service-url:
       defaultZone: http://localhost:${server.port}/eureka/
+  zipkin:
+    base-url: http://localhost:10085
