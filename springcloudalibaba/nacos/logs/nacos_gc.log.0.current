@@ -1,0 +1,30 @@
+Java HotSpot(TM) 64-Bit Server VM (25.221-b11) for bsd-amd64 JRE (1.8.0_221-b11), built on Jul  4 2019 04:36:22 by "java_re" with gcc 4.2.1 (Based on Apple Inc. build 5658) (LLVM build 2336.11.00)
+Memory: 4k page, physical 8388608k(677896k free)
+
+/proc/meminfo:
+
+CommandLine flags: -XX:GCLogFileSize=104857600 -XX:InitialHeapSize=536870912 -XX:MaxHeapSize=536870912 -XX:MaxNewSize=268435456 -XX:NewSize=268435456 -XX:NumberOfGCLogFiles=10 -XX:+PrintGC -XX:+PrintGCDateStamps -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:+UseGCLogFileRotation -XX:+UseParallelGC 
+2019-10-20T13:56:47.144-0800: 1.312: [GC (Allocation Failure) [PSYoungGen: 196608K->4080K(229376K)] 196608K->4096K(491520K), 0.0074337 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
+2019-10-20T13:56:47.531-0800: 1.699: [GC (Allocation Failure) [PSYoungGen: 200688K->6000K(229376K)] 200704K->6088K(491520K), 0.0047956 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+2019-10-20T13:56:47.759-0800: 1.927: [GC (Metadata GC Threshold) [PSYoungGen: 61100K->6096K(229376K)] 61188K->6192K(491520K), 0.0036566 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
+2019-10-20T13:56:47.763-0800: 1.931: [Full GC (Metadata GC Threshold) [PSYoungGen: 6096K->0K(229376K)] [ParOldGen: 96K->6011K(262144K)] 6192K->6011K(491520K), [Metaspace: 20538K->20536K(1067008K)], 0.0181512 secs] [Times: user=0.05 sys=0.01, real=0.02 secs] 
+2019-10-20T13:56:48.410-0800: 2.578: [GC (Allocation Failure) [PSYoungGen: 196608K->4032K(229376K)] 202619K->10051K(491520K), 0.0035732 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+2019-10-20T13:56:48.669-0800: 2.837: [GC (Allocation Failure) [PSYoungGen: 200640K->4980K(229376K)] 206659K->11007K(491520K), 0.0021945 secs] [Times: user=0.01 sys=0.00, real=0.01 secs] 
+2019-10-20T13:56:49.179-0800: 3.347: [GC (Allocation Failure) [PSYoungGen: 201588K->7136K(252928K)] 207615K->13419K(515072K), 0.0044643 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
+2019-10-20T13:56:50.039-0800: 4.207: [GC (Allocation Failure) [PSYoungGen: 252896K->8160K(253952K)] 259179K->17031K(516096K), 0.0087535 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+2019-10-20T13:56:50.154-0800: 4.322: [GC (Metadata GC Threshold) [PSYoungGen: 34279K->8180K(248832K)] 43150K->17403K(510976K), 0.0044728 secs] [Times: user=0.03 sys=0.00, real=0.00 secs] 
+2019-10-20T13:56:50.158-0800: 4.327: [Full GC (Metadata GC Threshold) [PSYoungGen: 8180K->0K(248832K)] [ParOldGen: 9223K->16628K(262144K)] 17403K->16628K(510976K), [Metaspace: 33881K->33881K(1081344K)], 0.0676885 secs] [Times: user=0.32 sys=0.01, real=0.07 secs] 
+2019-10-20T13:56:51.251-0800: 5.419: [GC (Allocation Failure) [PSYoungGen: 240640K->8340K(249344K)] 257268K->24976K(511488K), 0.0055562 secs] [Times: user=0.03 sys=0.00, real=0.00 secs] 
+2019-10-20T13:56:53.175-0800: 7.343: [GC (Allocation Failure) [PSYoungGen: 248980K->11250K(244736K)] 265616K->32829K(506880K), 0.0086601 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+2019-10-20T13:56:54.206-0800: 8.374: [GC (Metadata GC Threshold) [PSYoungGen: 196248K->14322K(247808K)] 217827K->36365K(509952K), 0.0082665 secs] [Times: user=0.04 sys=0.00, real=0.01 secs] 
+2019-10-20T13:56:54.215-0800: 8.383: [Full GC (Metadata GC Threshold) [PSYoungGen: 14322K->0K(247808K)] [ParOldGen: 22043K->34851K(262144K)] 36365K->34851K(509952K), [Metaspace: 56647K->56647K(1101824K)], 0.1466014 secs] [Times: user=0.27 sys=0.01, real=0.15 secs] 
+2019-10-20T13:56:57.872-0800: 12.040: [GC (Allocation Failure) [PSYoungGen: 233195K->4536K(243712K)] 268047K->39395K(505856K), 0.0047044 secs] [Times: user=0.02 sys=0.00, real=0.00 secs] 
+Heap
+ PSYoungGen      total 243712K, used 215396K [0x00000007b0000000, 0x00000007c0000000, 0x00000007c0000000)
+  eden space 229376K, 91% used [0x00000007b0000000,0x00000007bcdeb0b0,0x00000007be000000)
+  from space 14336K, 31% used [0x00000007bf200000,0x00000007bf66e040,0x00000007c0000000)
+  to   space 16384K, 0% used [0x00000007be000000,0x00000007be000000,0x00000007bf000000)
+ ParOldGen       total 262144K, used 34859K [0x00000007a0000000, 0x00000007b0000000, 0x00000007b0000000)
+  object space 262144K, 13% used [0x00000007a0000000,0x00000007a220afa0,0x00000007b0000000)
+ Metaspace       used 64443K, capacity 67612K, committed 67968K, reserved 1107968K
+  class space    used 8057K, capacity 8971K, committed 9088K, reserved 1048576K
