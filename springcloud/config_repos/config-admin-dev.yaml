@@ -15,5 +15,11 @@ management:
     web:
       server:
         auto-time-requests: false
+  security:
+    enable: false
+
+  boot:
+    admin:
+      url: http://localhost:8083
 #  main:
 #    allow-bean-definition-overriding: true
