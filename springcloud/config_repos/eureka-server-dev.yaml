@@ -12,3 +12,8 @@ eureka:
       defaultZone: http://localhost:${server.port}/eureka/
   zipkin:
     base-url: http://localhost:10085
+management:
+  metrics:
+    web:
+      server:
+        auto-time-requests: false
