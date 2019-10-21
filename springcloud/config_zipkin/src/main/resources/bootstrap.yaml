@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    config:
+      profile: dev
+      url: http://localhost:8888/config_repos
+      label: master
+      name: config-zipkin
