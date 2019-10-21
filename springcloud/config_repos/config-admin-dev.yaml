@@ -20,6 +20,6 @@ management:
 
   boot:
     admin:
-      url: http://localhost:8083
+      url: http://localhost:8084
 #  main:
 #    allow-bean-definition-overriding: true
