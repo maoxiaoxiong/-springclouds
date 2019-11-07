@@ -1,0 +1,32 @@
+server:
+  port: 8761
+
+spring:
+  application:
+    name: eureka-server
+eureka:
+  client:
+    fetch-registry: false # 是否注册自己的信息到EurekaServer，默认是true
+    register-with-eureka: true # 是否拉取其它服务的信息，默认是true
+    service-url: # EurekaServer的地址，现在是自己的地址，如果是集群，需要加上其它Server的地址。
+      defaultZone: http://localhost:${server.port}/eureka/
+  server:
+    enable-self-preservation: true # 自我保护模式
+  zipkin:
+    base-url: http://localhost:10085
+management:
+  metrics:
+    web:
+      server:
+        auto-time-requests: false
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: ALWAYS
+  boot:
+    admin:
+      client:
+        url: http://localhost:8084
