@@ -21,6 +21,6 @@ management:
   security:
     enable: false
 
-refreshtest: refreshtest2
+refreshtest: refreshtest3
 #  main:
 #    allow-bean-definition-overriding: true
