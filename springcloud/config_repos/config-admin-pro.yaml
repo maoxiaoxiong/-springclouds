@@ -25,5 +25,7 @@ management:
         auto-time-requests: false
   security:
     enable: false
+
+refreshtest: refreshtest
 #  main:
 #    allow-bean-definition-overriding: true
