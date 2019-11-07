@@ -26,6 +26,6 @@ management:
   security:
     enable: false
 
-refreshtest: admin1
+refreshtest: admin2
 #  main:
 #    allow-bean-definition-overriding: true
